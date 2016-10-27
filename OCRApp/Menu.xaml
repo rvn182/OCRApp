@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="OCRApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OCRApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*" />
+            <RowDefinition Height="25*" />
+            <RowDefinition Height="15*" />
+            <RowDefinition Height="15*" />
+            <RowDefinition Height="20*" />
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="textBlockSknerus" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="SKNERUS" VerticalAlignment="Center" Foreground="White" FontSize="73"/>
+        <TextBlock x:Name="textBlockMenu" HorizontalAlignment="Center" Margin="0,0,0,0"  TextWrapping="Wrap" Text="Menu" VerticalAlignment="Center" FontSize="50" Foreground="White" Grid.Row="1"/>
+        <Button x:Name="buttonAddPrice" Content="Dodaj cenę" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Background="#FF636363" FontSize="30" Click="buttonAddPrice_Click" />
+        <Button x:Name="buttonResearch" Content="Przeglądaj ceny" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Background="#FF636363" FontSize="30" Click="buttonResearch_Click"/>
+
+    </Grid>
+</Page>
