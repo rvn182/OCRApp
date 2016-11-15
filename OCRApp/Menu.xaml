@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="Black">
+    <Grid Background="{ThemeResource AppBarToggleButtonBackgroundCheckedPressed}">
         <Grid.RowDefinitions>
             <RowDefinition Height="25*" />
             <RowDefinition Height="25*" />
@@ -15,10 +15,10 @@
             <RowDefinition Height="15*" />
             <RowDefinition Height="20*" />
         </Grid.RowDefinitions>
-        <TextBlock x:Name="textBlockSknerus" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="SKNERUS" VerticalAlignment="Center" Foreground="White" FontSize="73"/>
-        <TextBlock x:Name="textBlockMenu" HorizontalAlignment="Center" Margin="0,0,0,0"  TextWrapping="Wrap" Text="Menu" VerticalAlignment="Center" FontSize="50" Foreground="White" Grid.Row="1"/>
-        <Button x:Name="buttonAddPrice" Content="Dodaj cenę" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Background="#FF636363" FontSize="30" Click="buttonAddPrice_Click" />
-        <Button x:Name="buttonResearch" Content="Przeglądaj ceny" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Background="#FF636363" FontSize="30" Click="buttonResearch_Click"/>
+        <TextBlock x:Name="textBlockSknerus" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="SKNERUS" VerticalAlignment="Center"  FontSize="73"/>
+        <TextBlock x:Name="textBlockMenu" HorizontalAlignment="Center" Margin="0,0,0,0"  TextWrapping="Wrap" Text="Menu" VerticalAlignment="Center" FontSize="50" Grid.Row="1"/>
+        <Button x:Name="buttonAddPrice" Content="Dodaj cenę" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" FontSize="30" Click="buttonAddPrice_Click"/>
+        <Button x:Name="buttonResearch" Content="Przeglądaj ceny" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" FontSize="30" Click="buttonResearch_Click" IsTabStop="False"/>
 
     </Grid>
 </Page>

@@ -25,6 +25,7 @@ namespace OCRApp
         public AddPrice()
         {
             this.InitializeComponent();
+            textBoxPrice.Text = MainPage.price;
         }
     }
 }

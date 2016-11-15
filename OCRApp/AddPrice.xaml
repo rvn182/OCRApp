@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="Black">
+    <Grid Background="{ThemeResource AppBarToggleButtonBackgroundCheckedPressed}">
         <Grid.RowDefinitions>
             <RowDefinition Height="20*" />
             <RowDefinition Height="20*" />
@@ -19,13 +19,13 @@
             <ColumnDefinition Width="50*" />
             <ColumnDefinition Width="50*" />
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="textBlockAddPrice" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="Dodawanie ceny" VerticalAlignment="Center" Foreground="White" Grid.ColumnSpan="2" FontSize="45" />
-        <TextBlock x:Name="textBlockShop" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Sklep:" VerticalAlignment="Center" Foreground="White" FontSize="25"/>
-        <ComboBox x:Name="comboBoxShop" Grid.Column="1" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="120" Background="#66FFFFFF" />
-        <TextBlock x:Name="textBlockCategory" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Kategoria:" VerticalAlignment="Center" Foreground="White" FontSize="25" RenderTransformOrigin="0.552,3.376" Width="Auto"/>
+        <TextBlock x:Name="textBlockAddPrice" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="Dodawanie ceny" VerticalAlignment="Center"  Grid.ColumnSpan="2" FontSize="45" />
+        <TextBlock x:Name="textBlockShop" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Sklep:" VerticalAlignment="Center"  FontSize="25"/>
+        <ComboBox x:Name="comboBoxShop" Grid.Column="1" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="120"  />
+        <TextBlock x:Name="textBlockCategory" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Kategoria:" VerticalAlignment="Center"  FontSize="25" RenderTransformOrigin="0.552,3.376" Width="Auto"/>
         <ComboBox x:Name="comboBoxCategory" Grid.Column="1" HorizontalAlignment="Stretch" Margin="30,48" Grid.Row="2" VerticalAlignment="Center" Width="120"/>
-        <TextBlock x:Name="textBlockPrice" HorizontalAlignment="Center" Margin="34.488,47.374,33.511,46.626" Grid.Row="3" TextWrapping="Wrap" Text="Cena:" VerticalAlignment="Center" Foreground="White" FontSize="25" RenderTransformOrigin="0.552,3.376" Width="Auto"/>
-        <TextBox x:Name="textBoxPrice" Grid.Column="1" HorizontalAlignment="Stretch" Margin="0,0,10,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Background="#66A6A6A6"/>
-        <Button x:Name="buttonAdd" Content="DODAJ" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Background="#66FFFFFF" RenderTransformOrigin="3.722,1.965" Grid.ColumnSpan="2" FontSize="30"/>
+        <TextBlock x:Name="textBlockPrice" HorizontalAlignment="Center" Margin="34.488,47.374,33.511,46.626" Grid.Row="3" TextWrapping="Wrap" Text="Cena:" VerticalAlignment="Center"  FontSize="25" RenderTransformOrigin="0.552,3.376" Width="Auto"/>
+        <TextBox x:Name="textBoxPrice" Grid.Column="1" HorizontalAlignment="Stretch" Margin="0,0,10,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" />
+        <Button x:Name="buttonAdd" Content="DODAJ" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" RenderTransformOrigin="3.722,1.965" Grid.ColumnSpan="2" FontSize="30"/>
     </Grid>
 </Page>

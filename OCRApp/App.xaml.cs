@@ -30,6 +30,7 @@ namespace OCRApp
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
         }
 
         /// <summary>
