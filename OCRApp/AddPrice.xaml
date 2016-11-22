@@ -26,6 +26,6 @@
         <ComboBox x:Name="comboBoxCategory" Grid.Column="1" HorizontalAlignment="Stretch" Margin="30,48" Grid.Row="2" VerticalAlignment="Center" Width="120"/>
         <TextBlock x:Name="textBlockPrice" HorizontalAlignment="Center" Margin="34.488,47.374,33.511,46.626" Grid.Row="3" TextWrapping="Wrap" Text="Cena:" VerticalAlignment="Center"  FontSize="25" RenderTransformOrigin="0.552,3.376" Width="Auto"/>
         <TextBox x:Name="textBoxPrice" Grid.Column="1" HorizontalAlignment="Stretch" Margin="0,0,10,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" />
-        <Button x:Name="buttonAdd" Content="DODAJ" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" RenderTransformOrigin="3.722,1.965" Grid.ColumnSpan="2" FontSize="30"/>
+        <Button x:Name="buttonAdd" Content="DODAJ" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" RenderTransformOrigin="3.722,1.965" Grid.ColumnSpan="2" FontSize="30" Click="buttonAdd_Click"/>
     </Grid>
 </Page>

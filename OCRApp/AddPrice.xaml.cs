@@ -27,5 +27,10 @@ namespace OCRApp
             this.InitializeComponent();
             textBoxPrice.Text = MainPage.price;
         }
+
+        private void buttonAdd_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }
